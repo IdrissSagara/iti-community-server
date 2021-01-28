@@ -17,7 +17,7 @@ export class Config {
     authSecret: string = "6zKOFPXCJVT2rSIBIGczyN4noGZoTtkR";
 
     @Env("LOCAL_FILES_URL")
-    filesUrl: string = "http://localhost:3000/file";
+    filesUrl: string = "https://262b3821bb81.ngrok.io/file";
 }
 
 export const config = loadConfig(Config);
